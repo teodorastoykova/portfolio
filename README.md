@@ -1,7 +1,8 @@
 Personal Portfolio Website
+
 Welcome to my personal portfolio website! This repository contains the source code for my personal portfolio, showcasing my projects, skills, and education.
 
-Table of Contents
+Table of Contents:
 Introduction
 Features
 Technologies Used
@@ -9,10 +10,12 @@ Installation
 Usage
 Contact
 
-Introduction
+Introduction:
+
 This is my personal portfolio website where you can learn more about my professional background, see the projects I have worked on, and get in touch with me. It's designed to be a simple, clean, and responsive website.
 
-Features
+Features:
+
 Responsive Design: The website is fully responsive and works on all device sizes.
 About Me: A brief introduction to who I am and what I do.
 Skills Section: Overview of my technical skills and proficiencies.
@@ -29,7 +32,8 @@ Bootstrap: For responsive design and components.
 Font Awesome: For icons.
 Animate.css: For CSS animations.
 
-Installation
+Installation:
+
 To run this project locally, follow these steps:
 
   1. Clone the repository:
@@ -52,7 +56,8 @@ To run this project locally, follow these steps:
 
     http://localhost:3000
 
-Usage
+Usage: 
+
 Feel free to explore the different sections of the website:
 
 
