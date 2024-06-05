@@ -1,8 +1,17 @@
 import weatherApp from "../assets/img/weather-app.png";
-import simonGame from "../assets/img/simon-game.png";
 import filmify from "../assets/img/filmify.png";
-
+import portfolio from "..//assets/img/personal-portfolio.png";
 const projects = [
+  {
+    title: "Property Rental",
+    description: `
+      A property rental website designed to enable users to browse, search, and manage property listings. It leverages a range of modern web development technologies and features to offer a comprehensive and user-friendly experience.
+    `,
+    implementation:
+      "Teck stack: Next.js 14, React, Tailwind CSS, MongoDB, Mongoose, Next Auth, Photoswipe, Cloudinary, Mapbox, React Map GL, React Geocode, React Spinners, React Icons, React Toastify, React Share",
+    imgUrl: portfolio,
+    projectLink: "https://property-rental-six.vercel.app/",
+  },
   {
     title: "Filmify: Your Ultimate Movie Companion",
     description:
@@ -19,14 +28,6 @@ const projects = [
     implementation: "Developed With: React.js, CSS, Open Weather API",
     imgUrl: weatherApp,
     projectLink: "https://teodorastoykova.github.io/weather-app/",
-  },
-  {
-    title: "The Simon Game: Test Your Memory and Reflexes",
-    description:
-      "The Simon Game is a classic memory and reflex game that challenges players to recall and repeat sequences of colors and sounds. With its simple yet addictive gameplay, Simon provides hours of entertainment for players of all ages.",
-    implementation: "",
-    imgUrl: simonGame,
-    projectLink: "https://teodorastoykova.github.io/simon-game/",
   },
 ];
 
