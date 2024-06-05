@@ -4,6 +4,7 @@
 Welcome to my personal portfolio website! This repository contains the source code for my personal portfolio, showcasing my projects, skills, and education.
 
 
+
 ## 📋 Table of Contents
 
 1. [👋 Intro](#intro)
@@ -15,12 +16,12 @@ Welcome to my personal portfolio website! This repository contains the source co
 
 
 
-# 👋 Intro
+## 👋 Intro
 
 This is my personal portfolio website where you can learn more about my professional background, see the projects I have worked on, and get in touch with me. It's designed to be a simple, clean, and responsive website.
 
 
-## 🚀 Features:
+## 🚀 Features
 
 - Responsive Design: The website is fully responsive and works on all device sizes.
 - About Me: A brief introduction to who I am and what I do.
