@@ -4,15 +4,15 @@ import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
 import skills_description from "../data/skills_description";
 
-import javascriptIMG from '../assets/img/javascript-logo.png'
-import reactIMG from '../assets/img/react_logo.png'
-import gitIMG from '../assets/img/git-logo.png'
-import pythonIMG from '../assets/img/python-logo.png'
-import fastapiIMG from '../assets/img/fastAPI-logo.png'
-import sqlIMG from '../assets/img/mysql-logo.png'
-import mariaDBIMG from '../assets/img/mariadb-logo.png'
-import postmanIMG from '../assets/img/postman-logo.png'
-
+import javascriptIMG from "../assets/img/javascript-logo.png";
+import reactIMG from "../assets/img/react_logo.png";
+import gitIMG from "../assets/img/git-logo.png";
+import pythonIMG from "../assets/img/python-logo.png";
+import fastapiIMG from "../assets/img/fastAPI-logo.png";
+import sqlIMG from "../assets/img/mysql-logo.png";
+import mariaDBIMG from "../assets/img/mariadb-logo.png";
+import postmanIMG from "../assets/img/postman-logo.png";
+import mongoDBIMG from "../assets/img/mongodb-logo.png";
 
 function Skills() {
   const responsive = {
@@ -45,23 +45,18 @@ function Skills() {
               >
                 <div className="item">
                   <img src={javascriptIMG} alt="Zdr" />
-                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
                   <img src={reactIMG} alt="Kartinka" />
-                  <h5>React</h5>
                 </div>
                 <div className="item">
                   <img src={gitIMG} alt="Pic" />
-                  <h5>Git</h5>
                 </div>
                 <div className="item">
                   <img src={pythonIMG} alt="Pic" />
-                  <h5>Python</h5>
                 </div>
-                <div className="item">
+                <div className="item" style={{ marginTop: '80px' }}>
                   <img src={fastapiIMG} alt="Pic" />
-                  <h5>Fast API</h5>
                 </div>
                 <div className="item">
                   <img src={sqlIMG} alt="Pic" />
@@ -71,15 +66,17 @@ function Skills() {
                   <h5>MariaDB</h5>
                 </div>
                 <div className="item">
+                  <img src={mongoDBIMG} alt="Pic" />
+                </div>
+                <div className="item">
                   <img src={postmanIMG} alt="Pic" />
-                  <h5>PostMan</h5>
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} alt='image5'/>
+      <img className="background-image-left" src={colorSharp} alt="image5" />
     </section>
   );
 }
