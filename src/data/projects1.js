@@ -1,5 +1,5 @@
 import weatherApp from "../assets/img/weather-app.png";
-import filmify from "../assets/img/filmify.png";
+import property from "../assets/img/property-pulse.png";
 import portfolio from "..//assets/img/personal-portfolio.png";
 const projects = [
   {
@@ -9,17 +9,17 @@ const projects = [
     `,
     implementation:
       "Teck stack: Next.js 14, React, Tailwind CSS, MongoDB, Mongoose, Next Auth, Photoswipe, Cloudinary, Mapbox, React Map GL, React Geocode, React Spinners, React Icons, React Toastify, React Share",
-    imgUrl: portfolio,
+    imgUrl: property,
     projectLink: "https://property-rental-six.vercel.app/",
   },
   {
-    title: "Filmify: Your Ultimate Movie Companion",
+    title: "My Personal Portfolio Website",
     description:
-      "Filmify is a sleek and intuitive movie application designed to enhance your cinematic experience. With Filmify, you can discover, explore, and keep track of your favorite movies effortlessly.",
+      "A comprehensive personal portfolio website to showcase my projects & skills. The website is designed to be responsive and visually appealing, providing an optimal viewing experience across a wide range of devices.",
     implementation:
-      "Implemented With: React.js, Material-UI templates, the Movie Database (TMDb) API, Cypress, Vitest",
-    imgUrl: filmify,
-    projectLink: "",
+      "Technologies used: JavaScript, Bootstrap, Font Awesome, Animate.css, HTML5, CSS",
+    imgUrl: portfolio,
+    projectLink: "https://personal-portfolio-flame-tau.vercel.app/",
   },
   {
     title: "WeatherNow",

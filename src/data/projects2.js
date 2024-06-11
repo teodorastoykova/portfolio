@@ -1,7 +1,16 @@
 import learningSysImg from "../assets/img/e-learning-system.png";
 import simonGame from "../assets/img/simon-game.png";
-
+import filmify from "../assets/img/filmify.png";
 const projects = [
+  {
+    title: "Filmify: Your Ultimate Movie Companion",
+    description:
+      "Filmify is a sleek and intuitive movie application designed to enhance your cinematic experience. With Filmify, you can discover, explore, and keep track of your favorite movies effortlessly.",
+    implementation:
+      "Implemented With: React.js, Material-UI templates, the Movie Database (TMDb) API, Cypress, Vitest",
+    imgUrl: filmify,
+    projectLink: "",
+  },
   {
     title: "E-Learning System",
     description:
@@ -11,6 +20,7 @@ const projects = [
     imgUrl: learningSysImg,
     projectLink: "",
   },
+
   {
     title: "The Simon Game: Test Your Memory and Reflexes",
     description:
