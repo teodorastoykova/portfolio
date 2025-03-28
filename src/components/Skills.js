@@ -42,6 +42,7 @@ function Skills() {
                 responsive={responsive}
                 infinite={true}
                 className="skill-slider"
+                slidesToSlide={3}
               >
                 <div className="item">
                   <img src={javascriptIMG} alt="Zdr" />
