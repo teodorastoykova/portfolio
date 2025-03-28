@@ -30,7 +30,7 @@ function Education() {
             <h3 className="title">High School Diploma</h3>
             <p>American College of Sofia</p>
             <span className="circle"></span>
-            <span className="date">June 2023</span>
+            <span className="date">June 2017</span>
           </li>
         </ul>
       </div>
